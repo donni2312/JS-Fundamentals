@@ -16,6 +16,12 @@ JavaScript is amazing
 guillaume@ubuntu:~/0x12$ 
 */
 
-const myArray = ["C is fun", "Python is cool", "JavaScript is amazing"];
-const myVar = myArray[0] + '\n' + myArray[1] + '\n' + myArray[2];
-console.log(myVar);
+
+
+
+ const myArray = ["C is fun", "Python is cool", "JavaScript is amazing"];
+ let i = 0;
+ while (i < myArray.length) {
+   console.log(myArray[i]);
+   i++;
+ }
